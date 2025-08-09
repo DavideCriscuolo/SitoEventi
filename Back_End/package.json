@@ -1,0 +1,23 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "errorhandler": "^1.5.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "node": "^22.18.0"
+  }
+}

@@ -1,0 +1,24 @@
+.formContact {
+  background-color: #fcebd38f;
+}
+.form-control {
+  border-color: #a51680;
+}
+.form-control:focus {
+  border-color: #a51680;
+  box-shadow: 0 0 0 0.25rem #a5167f8a;
+}
+.form-label {
+  font-size: 15px;
+  text-wrap: nowrap;
+}
+
+.btn {
+  background-color: #a51680;
+  font-size: 15px;
+  color: white;
+}
+.btn:hover {
+  border: 1px solid #a51680;
+  color: #a51680;
+}

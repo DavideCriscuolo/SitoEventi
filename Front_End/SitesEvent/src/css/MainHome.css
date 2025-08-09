@@ -1,0 +1,19 @@
+main {
+  font-family: "Afacad", sans-serif;
+  min-height: 100vh;
+
+  .about {
+    height: 100%;
+    .img_bg {
+      height: 100px;
+      background-image: url("./../assets/Group2.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+  }
+  .service {
+    background-color: #fcebd38f;
+    min-height: 600px;
+  }
+}

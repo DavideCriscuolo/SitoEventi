@@ -1,0 +1,17 @@
+.footer-flower {
+  width: 100%;
+  height: 80px;
+  background-color: #a51680;
+  background-image: url(./../assets/FrameFooter.png);
+  background-size: contain;
+}
+
+.bg-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #a51680;
+}
+
+.bg-email {
+  color: #fcebd3;
+}

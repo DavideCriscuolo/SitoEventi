@@ -1,0 +1,14 @@
+.bg-header {
+  max-height: 280px;
+  height: 100px;
+  background-color: #a51680;
+  background-image: url(./../assets/pathHeader.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  background-color: #a51680;
+}
+.navbar-toggler {
+  color: white;
+}

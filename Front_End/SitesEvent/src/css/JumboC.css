@@ -1,0 +1,6 @@
+.jumbo {
+  min-height: 600px;
+  background-image: url("./../assets/Rectangle6.png");
+  background-size: cover;
+  background-position: center;
+}
