@@ -10,7 +10,7 @@ Il sito di Janas Event è un'applicazione web creata per fornire informazioni e 
 ## Tecnologie utilizzate
 
 - React per la creazione dell'interfaccia utente
-- Bootsrap FrameWork per il front
+- Boostrap FrameWork per il front
 - Node.js per la gestione del server
 - Express per la creazione dell'API
 - Sendgrid per l'invio di email
