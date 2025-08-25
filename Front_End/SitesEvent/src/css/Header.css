@@ -12,3 +12,12 @@
 .navbar-toggler {
   color: white;
 }
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ff7140;
+}
+.nav-link:active {
+  color: #ff7140;
+}

@@ -30,19 +30,19 @@ export default function Header() {
             >
               <div className="nav align-items-center ">
                 <HashLink
-                  className="nav-link text-white"
+                  className="nav-link "
                   to="/#about"
                   aria-current="page"
                 >
                   About
                 </HashLink>
-                <HashLink className="nav-link text-white" to="/#service">
+                <HashLink className="nav-link " to="/#service">
                   Service
                 </HashLink>
-                <HashLink className="nav-link  text-white" to="/#gallery">
+                <HashLink className="nav-link  " to="/#gallery">
                   Gallery
                 </HashLink>
-                <HashLink className="nav-link  text-white" to="/#contact">
+                <HashLink className="nav-link  " to="/#contact">
                   Contact
                 </HashLink>
               </div>
