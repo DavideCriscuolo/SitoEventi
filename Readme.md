@@ -22,3 +22,5 @@ Il backend del sito è stato creato utilizzando Node.js e Express. La rotta prin
 ### Rotte
 
 - `/send-email`: rotta POST per inviare un'email
+
+

@@ -23,7 +23,7 @@ app.post("/send-email", async (req, res) => {
   const { first_name, last_name, email, phone, date, many_person, message } =
     req.body;
 
-  if (!nome || !cognome || !email || !messaggio) {
+  if (!first_name || !last_name || !email || !message) {
     return res.status(400).json({ error: "Tutti i campi sono obbligatori" });
   }
   const msg = {
@@ -32,7 +32,7 @@ app.post("/send-email", async (req, res) => {
     subject: "Nuovo evento",
     text: `Nome: ${first_name}Cognome: ${last_name}Email: ${email}Telefono: ${phone}Data: ${date} Quante persone: ${many_person} Descrizione: ${message}`,
     html: `
-    <h2>Nuovo contatto dal sito eventi</h2>
+    <h2>Nuovo evento richiesto</h2>
     <p><strong>Nome:</strong> ${first_name}</p>
     <p><strong>Cognome:</strong> ${last_name}</p>
     <p><strong>Email:</strong> ${email}</p>
