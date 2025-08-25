@@ -1,4 +1,4 @@
-import "./../css/header.css";
+import "./../css/header.scss";
 import logo from "./../assets/logo.png";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { NavLink } from "react-router";

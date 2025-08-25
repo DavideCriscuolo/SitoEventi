@@ -1,5 +1,5 @@
 import JumboC from "./JumboC";
-import "./../css/MainHome.css";
+import "./../css/MainHome.scss";
 import img1 from "./../assets/Rectangle2.png";
 import img2 from "./../assets/Rectangle7.png";
 import Carousell from "./Carousell";

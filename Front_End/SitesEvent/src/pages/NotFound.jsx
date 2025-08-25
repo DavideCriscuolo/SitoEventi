@@ -2,7 +2,7 @@
  * Pagina NotFound che visualizza un messaggio di errore quando la pagina richiesta non esiste.
  */
 
-import "./../css/NotFound.css";
+import "./../css/NotFound.scss";
 export default function NotFound() {
   return (
     <>

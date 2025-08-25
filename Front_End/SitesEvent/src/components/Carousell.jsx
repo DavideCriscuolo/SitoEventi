@@ -5,7 +5,7 @@
 import { SwiperSlide, Swiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "./../css/Carousell.css";
+import "./../css/Carousell.scss";
 import img1 from "./../assets/Rectangle44.png";
 import img2 from "./../assets/Rectangle45.png";
 // import required modules

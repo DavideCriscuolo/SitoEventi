@@ -2,7 +2,7 @@
  * Componente FormC che gestisce il form di contatto.
  * Invia un'email al server quando il form viene inviato.
  */
-import "./../css/FormC.css";
+import "./../css/FormC.scss";
 import { useState } from "react";
 
 export default function FormC() {
